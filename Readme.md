@@ -148,3 +148,39 @@ git commit -m e depois empurrar para o repositório
 principal com o comando push:
 
 >git status 
+>git commit -m "texto alterado " 
+>git push -u origin main 
+
+.........................................
+PS C:\Users\Jackson Borges\Documents\ProjetoGit> git push -u origin main 
+Enumerating objects: 8, done.
+Counting objects: 100% (8/8), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (6/6), done.
+Writing objects: 100% (6/6), 2.27 KiB | 581.00 KiB/s, done.
+Total 6 (delta 3), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (3/3), completed with 1 local object.
+To https://github.com/jacksonalencar/ProjetoGit.git
+   e6b5851..580fff9  main -> main
+Branch 'main' set up to track remote branch 'main' from 'origin'.
+PS C:\Users\Jackson Borges\Documents\ProjetoGit>
+:::::::::::::::::::::::::::::::::::::::::::
+
+Outros comandos importantes:
+
+merge 
+   - junção de duas Branch 
+
+pull 
+   - puxa o que esta no repositório do github para a sua máquina 
+
+git checkout -b "nome-da-Branch" 
+   - cria uma Branch 
+
+pull request 
+   - manda para uma Branch de um participante do githuh uma solicitação 
+     que pode ou não ser aceito 
+
+fork 
+   - puxa para sua máquina publicações no github 
+
