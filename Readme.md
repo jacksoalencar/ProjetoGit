@@ -113,4 +113,38 @@ Vamos agora fazer a conexão entre o minha máquina e o github.
 
 Pronto a conexão esta pronta. 
 
+Agora vou adicionar todas os arquivos alterados:
+E vou verificar com git status.
+>git add .
+..........................................................
+PS C:\Users\Jackson Borges\Documents\ProjetoGit> git add .
+PS C:\Users\Jackson Borges\Documents\ProjetoGit> git status 
+On branch main
+Your branch is up to date with 'origin/main'.
 
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        modified:   Readme.md
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+Vemos que estamos na Branch main, que é nossa origem e 
+que tem mudanças para serem comitadas. Com um arquivo 
+alterado, Readme.md 
+
+Agora vou passar para a main propriamente:
+
+>git commit -m "texto mais completo" 
+
+......................................
+PS C:\Users\Jackson Borges\Documents\ProjetoGit> git commit -m "texto mais completo"
+[main b2790e3] texto mais completo
+ 1 file changed, 52 insertions(+), 5 deletions(-)
+PS C:\Users\Jackson Borges\Documents\ProjetoGit> 
+::::::::::::::::::::::::::::::::::::
+
+Este processo pode ser repetido sempre que sua 
+versão for evoluindo. Por exemplo, depois de duas 
+semanas já esta pronto então você pode fazer o 
+git commit -m e depois empurrar para o repositório
+principal com o comando push:
+
+>git status 
